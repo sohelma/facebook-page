@@ -1,0 +1,112 @@
+/* part1 */
+body,h1,h2,h3,h5,p {font-family: Arial, Helvetica, sans-serif;}
+.part1{background: #3D589B;
+    height: 75px;}
+.logo{float:left;width: 50%;
+    margin-top: -4px;
+}
+.logo h1{font-size: 37px;color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 250px;
+   }
+.loginbutton{float:right;
+    width: 50%;;margin-top: 27px;
+    margin-right:-300px}
+.loginbutton a{color: white;
+    text-decoration: none;
+    background: #4265B0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+border:2px solid #2E4F8A;
+padding: 3px 5px;}
+.loginbutton a:hover{background: #3D589B;}
+/* part2 */
+.part2{background: #ECECF1;
+    width:100%;height:auto;
+    padding: 10px;
+  
+}
+.content{width:450px;
+    margin: 0 auto;
+}
+.content h1{font-family: Arial, Helvetica, sans-serif;
+    font-size: 43px;  
+    margin-top: 14px;
+   
+}
+.content h5{font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: #737B94;
+font-weight:100;
+margin-top: -20px;
+}
+.firstname{width: 45.5%;float: left;}
+.surename{width: 45.5%;float: right;}
+.mobile{width: 96.5%;margin-top:10px;}
+.password{width: 96.5%;margin-top:10px;}
+.alldate{display: flex;
+margin-top:10px;
+margin-bottom: 15px;
+margin-left:10px;
+}
+input{padding: 5px 6px;
+    font-size: 14px;
+    font-family: arial;
+    border-radius: 5px;
+    border: 1px solid rgb(212, 210, 210);
+}
+label{font-family: arial;font-weight: bold;font-size: 15px;color:#919FB0}
+p{font-size: 11px;
+    margin-top:9px
+    }
+    .radio{font-weight:bold;
+    margin-left: 10px;
+    margin-top:-4px}
+    .gendername{color:black}
+    .buttons{color:white;
+        background:linear-gradient(#68A753,#5D8949);
+    font-weight: bold;
+    width: 120px;
+    border: 1px solid lightgrey;
+    border-radius: 6px;
+}  
+    .buttons:hover
+    {background:linear-gradient(#8fec70,#5D8949);
+     cursor:pointer;
+    }
+
+    /* footer */
+    .footer{padding: 70px 28px}
+    .firstmenu{width: 60%;
+    margin: 0 auto;
+    border-bottom: 2px solid rgb(184, 180, 180);
+    }
+    .firstmenu ul{}
+    .firstmenu ul li{display:inline-block} 
+    .firstmenu ul li a{text-decoration: none;
+    padding:10px 12px;
+    font-size:15px;
+    
+    }
+    .active{color:grey;}
+    .secondmenu{width: 60%;
+        margin: 0 auto;
+        padding:10px 0px
+    }
+        .secondmenu ul{}
+        .secondmenu ul li{display:inline-block} 
+        .secondmenu ul li a{text-decoration: none;
+        padding:1px 12px;
+        color: #3D589B;
+        font-size: 15px;
+        }
+        .copyright{width: 52%;
+        margin:0 auto;
+    color: grey;
+    margin-top: 0px;
+    
+    }
+    .secondmenu ul li a:hover{
+        border-bottom: 1px solid rgb(189, 187, 187);
+    }
